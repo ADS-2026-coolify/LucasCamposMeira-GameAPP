@@ -80,7 +80,7 @@ npm run dev
 ```
 Acesse a aplicação no navegador: `http://localhost:5173`.
 
-### 3. Rodar com Docker (opcional)
+### 3. Rodar com Docker
 ```bash
 docker build -t pega-estrelas .
 docker run -p 3000:3000 pega-estrelas
