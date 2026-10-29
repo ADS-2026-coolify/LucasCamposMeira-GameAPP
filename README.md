@@ -88,6 +88,3 @@ docker run -p 3000:3000 pega-estrelas
 Acesse: `http://localhost:3000`.
 
 ---
-
-## 📄 Licença
-Projeto acadêmico desenvolvido para fins de estudo.
