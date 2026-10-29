@@ -5,8 +5,6 @@
 A aplicação foi construída do zero, separada em **frontend** (React) e **backend** (Node.js + Express), e empacotada em um único container Docker para facilitar a publicação.
 
 **Autor:** Lucas Campos Meira
-**Disciplina:** Tópicos Avançados em Tecnologia (ADS, 3º semestre)
-
 ---
 
 ## 🚀 Funcionalidades Principais
@@ -25,15 +23,6 @@ A aplicação foi construída do zero, separada em **frontend** (React) e **back
 - Ao fim de cada partida, o **nome** e a **pontuação** do jogador são enviados ao backend.
 - O painel lateral exibe o **Top 10** de todos os jogadores, atualizado logo após cada partida.
 - O ranking fica salvo no servidor, então é o mesmo para qualquer pessoa que acessar o jogo.
-
-### 3. 🔌 API REST
-| Método | Rota              | Descrição                                      |
-|--------|-------------------|------------------------------------------------|
-| GET    | `/api/health`     | Verifica se o servidor está no ar              |
-| GET    | `/api/ranking`    | Retorna as 10 maiores pontuações               |
-| POST   | `/api/pontuacao`  | Salva uma pontuação `{ "nome", "pontos" }`     |
-
-- **Validação no servidor**: nome obrigatório (até 20 caracteres) e pontuação inteira entre 0 e 100.000.
 
 ---
 
